@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mayank Batu — Personal Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <p class="brand">Mayank Batu</p>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <button type="button" id="theme-toggle" aria-pressed="false">
+      Dark mode
+    </button>
+  </header>
+
+  <main id="main">
+    <h1>Hello, I am Mayank Batu</h1>
+    <p class="lede">I build AI automations and full-stack web apps, and I'm working towards AI/ML research.</p>
+
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>
+        I'm a software engineer with a passion for building AI automations and full-stack web apps. I'm currently working on a project to build a AI/ML research platform.
+        and what you are currently focused on. Mention a city, a role, or a recent milestone if you like.
+      </p>
+      <p>
+        Contact: mayank222023989@gmail.com
+   
+      </p>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Git</li>
+        <li>UI/UX Design</li>
+      </ul>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <p class="projects-intro">Search by project name or technology, or filter the list below.</p>
+
+      <div class="projects-toolbar">
+        <label class="project-search-label" for="project-search">Search projects</label>
+        <input
+          type="search"
+          id="project-search"
+          placeholder="Try Python, Quiz, or Book"
+          autocomplete="off"
+        >
+
+        <fieldset class="project-filters">
+          <legend>Filter by technology</legend>
+          <button type="button" class="filter-chip is-active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="filter-chip" data-filter="python" aria-pressed="false">Python</button>
+          <button type="button" class="filter-chip" data-filter="javascript" aria-pressed="false">JavaScript</button>
+          <button type="button" class="filter-chip" data-filter="html" aria-pressed="false">HTML</button>
+          <button type="button" class="filter-chip" data-filter="css" aria-pressed="false">CSS</button>
+          <button type="button" class="filter-chip" data-filter="cursor-ai" aria-pressed="false">Cursor AI</button>
+        </fieldset>
+      </div>
+
+      <p class="project-status" id="project-status" aria-live="polite"></p>
+
+      <ul class="projects-list">
+        <li
+          class="project-card"
+          data-name="python programs collection"
+          data-tech="python"
+        >
+          <h3>Python programs collection</h3>
+          <p>A beginner-friendly set of Python scripts for factorial, Fibonacci, and converting nested structures into dictionaries.</p>
+          <p class="tech-label">Technologies</p>
+          <ul class="tech-list">
+            <li>Python</li>
+          </ul>
+          <p class="project-links">
+            <a href="https://github.com/Mayank07-dev/python-program-collection">GitHub repository</a>
+          </p>
+        </li>
+        <li
+          class="project-card"
+          data-name="messy python code improvement"
+          data-tech="python cursor-ai"
+        >
+          <h3>Messy Python code improvement</h3>
+          <p>Refactors a messy Python grading script into clearer, safer, more maintainable code with Cursor AI.</p>
+          <p class="tech-label">Technologies</p>
+          <ul class="tech-list">
+            <li>Python</li>
+            <li>Cursor AI</li>
+          </ul>
+          <p class="project-links">
+            <a href="https://github.com/Mayank07-dev/messy-python-code-improvement">GitHub repository</a>
+          </p>
+        </li>
+        <li
+          class="project-card"
+          data-name="bug fixing using cursor ai"
+          data-tech="python cursor-ai"
+        >
+          <h3>Bug fixing using Cursor AI</h3>
+          <p>Uses Cursor AI to find and fix bugs in Python, including input validation and incorrect “best subject” logic.</p>
+          <p class="tech-label">Technologies</p>
+          <ul class="tech-list">
+            <li>Python</li>
+            <li>Cursor AI</li>
+          </ul>
+          <p class="project-links">
+            <a href="https://github.com/Mayank07-dev/bug-fixing-using-cursor-ai">GitHub repository</a>
+          </p>
+        </li>
+        <li
+          class="project-card"
+          data-name="interactive quiz application"
+          data-tech="html css javascript"
+        >
+          <h3>Interactive quiz application</h3>
+          <p>A browser quiz with instant feedback, a live score, a progress bar, and a final review of every answer.</p>
+          <p class="tech-label">Technologies</p>
+          <ul class="tech-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <p class="project-links">
+            <a href="https://github.com/Mayank07-dev/interactive-quiz-application">GitHub repository</a>
+          </p>
+        </li>
+        <li
+          class="project-card"
+          data-name="book reading list application"
+          data-tech="html css javascript"
+        >
+          <h3>Book reading list application</h3>
+          <p>A book reading list app for tracking titles you want to read and books you have already finished.</p>
+          <p class="tech-label">Technologies</p>
+          <ul class="tech-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <p class="project-links">
+            <a href="https://github.com/Mayank07-dev/book-reading-list-application">GitHub repository</a>
+          </p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> PLACEHOLDER: Your Name. Built as a personal profile page.</p>
+  </footer>
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>
